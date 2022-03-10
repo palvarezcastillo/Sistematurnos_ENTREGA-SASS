@@ -1,0 +1,16 @@
+header {
+    background-color: blue;
+
+    .navbar {
+        background-color: blue;
+    
+        .navbar-brand {
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .navbar-collapse {
+            flex-grow: initial;
+        }
+    }
+}

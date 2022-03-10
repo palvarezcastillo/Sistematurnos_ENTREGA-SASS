@@ -1,0 +1,68 @@
+@import "body";
+@import "nav";
+@import "section";
+@import "footer";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Menu Contacto*/
+    form {
+        padding: 10px 100px;
+        background-color: #219F94;
+    }
+
+    #emailHelp {
+        color: #ffffff;
+    }
+    .btn-primary {
+        background-color: #5a6978;
+        border-color: #ffffff;
+    }
+    .btn-primary:hover {
+        background-color: #343f4b;
+        border-color: #ffffff;
+    }
+
+/*Menu Acerca de Nosotros*/
+
+.acercadenostros {
+    font-size: 18px;
+    background-color: #219F94;
+    max-width: 100%;
+    display: grid;
+    row-gap:unset;
+    text-align: center;
+    padding: 30px 30px 20px 20px;
+    border-top: 2px solid #ffffff;
+}
+
+/*Media Queries para tablet */
+
+/*Media queries para tamaños de celular */
+@media screen and (max-width:768px) {
+    .container {
+        font-size: 15px;
+}
+    footer {
+        font-size: 12px;
+}
+.acercadenostros {
+        font-size: 12px;
+}
+
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        font-size: 8px;
+}
+    footer {
+    font-size: 6px;
+}
+.acercadenostros {
+    font-size: 6px;
+}
+}
