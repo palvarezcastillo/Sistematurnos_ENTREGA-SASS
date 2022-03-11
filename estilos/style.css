@@ -25,7 +25,7 @@ header {
   padding-top: 20px;
   padding-bottom: 30px;
   border-top: 2px solid #ffffff; }
-  .container .col:hover, .container li.active {
+  .container .col:hover, .container .col li.active {
     background-color: #343f4b;
     transition: .4s; }
 

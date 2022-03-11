@@ -12,8 +12,8 @@ $fuente: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 30px;
     border-top: 2px solid #ffffff;
     
-    .col:hover, li.active {
+    .col {&:hover, li.active {
         background-color: #343f4b;
         transition:.4s;
-    }
+    }}
 }
